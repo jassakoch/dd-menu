@@ -1,0 +1,41 @@
+*, 
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+
+.engagement-regular {
+    font-family: "Engagement", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .londrina-outline-regular {
+    font-family: "Londrina Outline", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+body {
+font-family: "Montserrat", sans-sarif;
+font-weight: 100;;
+font-style:normal;
+}
+
+h1 {
+    font-weight: 300;
+}
