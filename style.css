@@ -34,8 +34,61 @@ body {
 font-family: "Montserrat", sans-sarif;
 font-weight: 100;;
 font-style:normal;
+background: #4F7C7D;
 }
 
 h1 {
     font-weight: 300;
+    
+}
+
+.header{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  padding: 
+
+}
+
+.logo {
+  max-width: 150px;
+  width: 30vw;
+  object-fit:cover;
+}
+
+.fa-instagram {
+  font-size: 30px;
+  color: #E1306C; /* Instagram's pink color */
+  transition: 0.3s;
+}
+
+.fa-instagram:hover {
+  color: #C13584; /* Slightly darker pink */
+}
+
+.menu {
+  display: flex;
+  gap: 1rem;
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
+}
+
+ul {
+  list-style: none;
+  
+}
+
+.menu {
+  margin: 20px;
+  font-size: 1rem;
+
+}
+
+.menu li {
+  margin-bottom: 20px;
 }
