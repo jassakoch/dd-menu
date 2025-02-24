@@ -48,7 +48,6 @@ h1 {
   align-items: center;
   width: 90%;
   margin: 0 auto;
-  padding: 
 
 }
 
@@ -104,4 +103,8 @@ ul {
   display: flex;
   margin: 20px;
   gap: 20px;
+}
+
+.specials li {
+ margin-bottom: 30px;
 }
