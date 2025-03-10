@@ -53,8 +53,10 @@ h1 {
 
 .logo {
   max-width: 150px;
-  width: 30vw;
-  object-fit:cover;
+  /* width: 30vw; */
+  /* object-fit:cover; */
+  clip-path: inset(10px 0 10px 0); /* (top, right, bottom, left) */
+
 }
 
 .fa-instagram {
