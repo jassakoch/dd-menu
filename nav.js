@@ -3,12 +3,15 @@ header.classList.add("header");
 
 
 header.innerHTML = `
+
+<div class="hamburger" onclick="toggleMenu()">
+  &#9776;
+</div>
     <div class="logo-text">
       <h1 class="brand-name">Double D’s</h1>
       <h2 class="brand-sub">ROADHOUSE</h2>
     </div>
         <nav class="menu">
-
         <a class="link" href="index.html">Home</a>
         <a class="link" href="hours.html">Hours</a>
         <a class="link" href="specials.html">Specials</a>
@@ -20,5 +23,11 @@ header.innerHTML = `
         </a>
     </nav>
 `;
+
+function toggleMenu() {
+    const navMenu = document.querySelector("nav.menu");
+    navMenu.classList.toggle("active");
+  }
+  
 
 document.body.insertAdjacentElement("afterbegin", header);

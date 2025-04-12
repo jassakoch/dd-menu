@@ -89,6 +89,12 @@ ul {
   font-size: 1rem;
 
 }
+.food-menu {
+  display: flex;
+  margin: 20px;
+  gap: 20px;
+
+}
 
 .menu li {
   margin-bottom: 40px;
@@ -175,3 +181,29 @@ ul {
   }
 }
                       
+/* Hide hamburger by default */
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+/* Show hamburger and collapse menu ONLY on small screens */
+@media screen and (max-width: 768px) {
+  nav.menu {
+    display: none;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  nav.menu.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+}
+
