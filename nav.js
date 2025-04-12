@@ -3,8 +3,12 @@ header.classList.add("header");
 
 
 header.innerHTML = `
-    <img class="logo" src="images/DOUBLE D’S (500 x 350 px) (500 x 350 px) (500 x 250 px) (1).png" alt="logo">
-    <nav class="menu">
+    <div class="logo-text">
+      <h1 class="brand-name">Double D’s</h1>
+      <h2 class="brand-sub">ROADHOUSE</h2>
+    </div>
+        <nav class="menu">
+
         <a class="link" href="index.html">Home</a>
         <a class="link" href="hours.html">Hours</a>
         <a class="link" href="specials.html">Specials</a>
